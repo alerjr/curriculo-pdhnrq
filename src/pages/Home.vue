@@ -48,7 +48,7 @@
         id="col-2"
       >
         <!-- Foto -->
-        <img src="..\assets\01.jpg" class="w-75 p-2" alt="Foto" />
+        <img src="..\assets\01.jpg" class="w-75 p-2" alt="Foto" id="picHome" />
       </div>
     </div>
   </div>
@@ -105,6 +105,11 @@
 a {
   text-decoration: none;
   color: inherit;
+}
+
+#picHome:hover {
+  animation: shakeX;
+  animation-duration: 2s;
 }
 
 @media (max-width: 767px) {
