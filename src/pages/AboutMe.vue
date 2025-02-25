@@ -23,6 +23,7 @@
               src="..\assets\linkedin.svg"
               class="col-md-2 col-1 mx-auto d-block"
               alt="Linkedin"
+              id="linkedinLogo"
           /></a>
           <div class="col-2"></div>
           <!-- Dados -->
@@ -130,8 +131,12 @@ h3 {
   width: 50%;
 }
 
-.flecha:hover{
-opacity: 75%;
+.flecha:hover {
+  opacity: 75%;
+}
+
+#linkedinLogo:hover {
+  opacity: 75%;
 }
 
 @media (max-width: 768px) {
