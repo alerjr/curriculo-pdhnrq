@@ -4,7 +4,7 @@
 <template>
   <div class="col text-center" id="homecard">
     <!-- Divisao de colunas no meio -->
-    <div class="row col-12 m-0 min-vh-100">
+    <div class="row col-12 m-0">
       <!-- Coluna 1 -->
       <div class="col-md-6 col-12" id="col-1">
         <!-- Titulo -->
@@ -26,19 +26,17 @@
           </div>
 
           <!-- Abas -->
-          <div class="guides">
-            <a href="#aboutMe"><p class="mt-2">Sobre mim</p></a>
-            <a href="#experience"><p>Experiência</p></a>
-            <a href="#portfolio"><p>Portfólio</p></a>
-          </div>
+        </div>
+
+        <div class="guides d-flex justify-content-around">
+          <a href="#aboutMe"><p>Sobre mim</p></a>
+          <a href="#experience"><p>Experiência</p></a>
+          <a href="#portfolio"><p>Portfólio</p></a>
         </div>
 
         <!-- Bio -->
-        <div class="mt-4 mb-4">
-          Lorem ipsum dolor sit amet. Eum perspiciatis recusandae et aperiam
-          illum ut<br />
-          reiciendis dolor. Qui esse consequatur qui voluptate corrupti est
-          adipisci quasi.<br />
+        <div class="mt-2 mb-4">
+          Por aqui você pode conferir melhor sobre mim, <br>minhas habilidades, projetos e trajetória até o momento :)
         </div>
       </div>
 
@@ -59,11 +57,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
 
 #col-1 {
-  background-color: #f5e9dd;
+  background-color: 	#f67a93;
 }
 
 #col-2 {
-  background-color: #e2dcce;
+  background-color: #f23857;
 }
 
 #homecard {
@@ -73,11 +71,11 @@
   font-style: normal;
 }
 
-#homecardGuides {
+.guides {
   font-family: "Indie Flower", serif;
   text-transform: uppercase;
   font-size: 1.4rem;
-  color: rgb(76, 3, 3);
+  color: #1f1f1f;
   letter-spacing: -1.2px;
 }
 
@@ -87,14 +85,6 @@
 
 .display-1 {
   letter-spacing: -5px;
-}
-
-.guides {
-  position: absolute;
-  left: 34%;
-  margin-top: 2rem;
-  font-size: 2.5vw;
-  line-height: 0.8;
 }
 
 .guides p:hover {

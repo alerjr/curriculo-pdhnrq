@@ -2,9 +2,9 @@
 </script>
 
 <template>
-  <div class="min-vh-100">
+  <div class="col-12">
     <!-- Pagina com 100 vh -->
-    <div class="min-vh-100" id="experience">
+    <div class="container" id="experience">
       <!-- Divisao de colunas -->
       <div class="container col-12 d-md-flex d-inline justify-content-around">
         <!-- Coluna do titulo -->
@@ -76,7 +76,7 @@
     "
         ><img
           src="..\assets\up.svg"
-          class="d-flex justify-content-start align-items-start col-md-6 col-12 m-2"
+          class="d-flex justify-content-start align-items-start col-md-6 col-12 m-2 mb-md-5 mb-2"
           alt="Topo da página"
       /></a>
     </div>
@@ -85,7 +85,7 @@
 
 <style scoped>
 * {
-  background-color: #999897;
+  background-color: #ccff00;
 }
 
 p {
@@ -111,10 +111,10 @@ h3 {
 
 #data {
   font-family: "Indie Flower", serif;
-  color: rgb(76, 3, 3);
+  color: #314014;
 }
 
-.flecha:hover{
-opacity: 75%;
+.flecha:hover {
+  opacity: 75%;
 }
 </style>

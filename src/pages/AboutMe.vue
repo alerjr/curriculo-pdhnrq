@@ -2,11 +2,8 @@
 </script>
 
 <template>
-  <div class="min-vh-100">
-    <div
-      class="min-vh-100 d-flex justify-content-center align-items-center"
-      id="aboutMe"
-    >
+  <div class="">
+    <div class="d-flex justify-content-center align-items-center" id="aboutMe">
       <!-- Primeira coluna com foto de perfil e dados -->
 
       <div class="row col-md-12 col-10" id="profile">
@@ -14,7 +11,7 @@
           <!-- Foto de perfil -->
           <img
             src="..\assets\04.jpg"
-            class="mt-2 mx-auto d-block col-md-12 col-6"
+            class="mt-2 mb-2 mx-auto d-block col-md-12 col-6"
             alt="Foto"
           />
           <!-- Link linkedin -->
@@ -37,7 +34,7 @@
         <!-- Segunda coluna com as abas sobre mim e formacao -->
         <div class="col-md-5 col-12">
           <hr />
-          <h3 class="mt-sm-2">Sobre mim</h3>
+          <h3 class="mt-sm-2 mb-md-3 mb-0">Sobre mim</h3>
           <p>
             Estudante de Publicidade e Propaganda no Centro Universitário das
             Américas, com experiência anterior como estagiário nas áreas de
@@ -50,7 +47,7 @@
             resultados inovadores e eficazes.
           </p>
           <hr />
-          <h3 class="mt-sm-2">Formação</h3>
+          <h3 class="mt-sm-2 mb-md-3 mb-0">Formação</h3>
           <p>
             <strong
               >Graduação em Publicidade e Propaganda - Centro Universitário das
@@ -68,7 +65,7 @@
           </p>
         </div>
         <!-- Terceira coluna com habilidades -->
-        <div class="col-md-5 col-12">
+        <div class="col-md-5 col-12 mb-md-3 mb-0">
           <hr />
           <h3>Habilidades</h3>
           <div>
@@ -92,7 +89,7 @@
     "
         ><img
           src="..\assets\up.svg"
-          class="d-flex justify-content-start align-items-start col-md-6 col-12 m-2"
+          class="d-flex justify-content-start align-items-start col-md-6 col-12 m-2 mb-md-5 mb-2"
           alt="Topo da página"
       /></a>
     </div>
@@ -101,7 +98,7 @@
 
 <style scoped>
 * {
-  background-color: #d1cdc8;
+  background-color: #d44965;
 }
 
 #aboutMe {
